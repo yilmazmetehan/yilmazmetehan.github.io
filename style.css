@@ -1804,23 +1804,27 @@ section{
 
 }
 
-/* Deneyim */
-
 .experience-card{
 
-    grid-template-columns:1fr;
+    display:flex;
+
+    flex-direction:column;
+
+    gap:30px;
 
 }
 
 .experience-left{
 
+    width:100%;
+
+    padding:35px 25px;
+
+    margin:0;
+
     border-right:none;
 
     border-bottom:1px solid rgba(255,255,255,.08);
-
-    padding-bottom:35px;
-
-    margin-bottom:35px;
 
     text-align:center;
 
@@ -1830,17 +1834,57 @@ section{
 
     width:180px;
 
+    margin:0 auto 25px;
+
+}
+
+.experience-info{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
 }
 
 .experience-right{
 
-    padding-left:0;
+    width:100%;
+
+    padding:25px;
+
+}
+
+.experience-block{
+
+    width:100%;
+
+    max-width:100%;
+
+    margin:0 auto 20px;
+
+    padding:22px;
+
+    box-sizing:border-box;
+
+}
+
+.experience-block h5{
+
+    text-align:center;
 
 }
 
 .departments{
 
     justify-content:center;
+
+}
+
+.departments span{
+
+    margin:4px;
 
 }
 
