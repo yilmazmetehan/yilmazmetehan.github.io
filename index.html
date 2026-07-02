@@ -40,25 +40,37 @@
 
         </a>
 
-        <nav class="navbar">
+       <nav class="navbar">
 
-            <a href="#about">Hakkımda</a>
+    <a href="#about" data-lang="menuAbout">Hakkımda</a>
 
-<a href="#education">Eğitim</a>
+    <a href="#education" data-lang="menuEducation">Eğitim</a>
 
-<a href="#experience">Deneyim</a>
+    <a href="#experience" data-lang="menuExperience">Deneyim</a>
 
-<a href="#projects">Çalışmalarım</a>
+    <a href="#projects" data-lang="menuProjects">Çalışmalarım</a>
 
-<a href="#contact">İletişim</a>
+    <a href="#contact" data-lang="menuContact">İletişim</a>
 
-        </nav>
+</nav>
 
-        <button class="language-btn">
+        <div class="language-switch">
 
-            TR | EN
+    <button id="tr-btn" class="lang-btn active">
 
-        </button>
+        TR
+
+    </button>
+
+    <span>|</span>
+
+    <button id="en-btn" class="lang-btn">
+
+        EN
+
+    </button>
+
+</div>
 
     </div>
 
@@ -72,7 +84,7 @@
 
 <div class="hero-content">
 
-<span class="hero-label">
+<span class="hero-label" data-lang="heroLabel">
 
 Kişisel Websitesi
 
@@ -85,7 +97,7 @@ Yılmaz
 
 </h1>
 
-<h2>
+<h2 data-lang="heroTitle">
 
 Analiz Eden.<br>
 Üreten.<br>
@@ -93,9 +105,8 @@ Geliştiren.
 
 </h2>
 
-<p>
 
-<p>
+<p data-lang="heroDescription">
 
 Makine mühendisiyim ve Aydın'da faaliyet gösteren
 <strong>İzelmak Makine A.Ş.</strong> bünyesinde
@@ -106,19 +117,19 @@ kendimi sürekli geliştirmeye devam ediyorum.
 
 </p>
 
-</p>
-
 <div class="hero-buttons">
 
 <a href="#projects"
-class="btn btn-primary">
+   class="btn btn-primary"
+   data-lang="heroProjects">
 
 Çalışmalarımı İncele
 
 </a>
 
 <a href="#about"
-class="btn btn-secondary">
+   class="btn btn-secondary"
+   data-lang="heroAbout">
 
 Hakkımda
 
@@ -147,9 +158,9 @@ ABOUT
 
     <div class="container">
 
-        <span class="section-label">
-            HAKKIMDA
-        </span>
+        <span class="section-label" data-lang="aboutLabel">
+    HAKKIMDA
+</span>
         <div class="section-line"></div>
 
         <div class="about-grid">
@@ -164,43 +175,44 @@ ABOUT
 
             <div class="about-right">
 
-                <h2>
+    <h2 data-lang="aboutTitle">
 
-                    Makine Mühendisi
+        Makine Mühendisi
 
-                </h2>
+    </h2>
 
-                <h3>
+    <h3 data-lang="aboutSubtitle">
 
-                    Üretim Mühendisi • Yüksek Lisans Öğrencisi
-                    
-                    <div class="about-tags">
+        Üretim Mühendisi • Yüksek Lisans Öğrencisi
 
-                    <span>Makine Mühendisliği</span>
+    </h3>
 
-                    <span>Üretim Teknolojileri</span>
+    <div class="about-tags">
 
-                    <span>Süreç İyileştirme</span>
+        <span data-lang="tag1">Makine Mühendisliği</span>
 
-                    <span>Eklemeli İmalat</span>
+        <span data-lang="tag2">Üretim Teknolojileri</span>
 
-                </div>
+        <span data-lang="tag3">Süreç İyileştirme</span>
 
-                </h3>
+        <span data-lang="tag4">Eklemeli İmalat</span>
 
-                <p>
+    </div>
+
+
+                <p data-lang="aboutText1">
 
 Merhaba, ben <strong>Metehan Yılmaz</strong>. Makine mühendisiyim ve Aydın'da faaliyet gösteren <strong>İzelmak Makine A.Ş.</strong> bünyesinde <strong>Üretim Mühendisi</strong> olarak görev yapıyorum.
 
 </p>
 
-<p>
+<p data-lang="aboutText2">
 
 Günlük, haftalık ve aylık hammadde planlaması, ERP sistemi üzerinden üretim süreçlerinin yönetimi ve süreç iyileştirme çalışmaları temel sorumluluk alanlarımı oluşturmaktadır.
 
 </p>
 
-<p>
+<p data-lang="aboutText3">
 
 Bunun yanında Pamukkale Üniversitesi Fen Bilimleri Enstitüsü Makine Mühendisliği Anabilim Dalı'nda yüksek lisans eğitimime devam ediyor; eklemeli imalat teknolojileri üzerine akademik araştırmalar yürütüyorum.
 
@@ -225,18 +237,20 @@ JOURNEY
 
     <div class="container">
 
-        <span class="section-label">
+        <span class="section-label"
+      data-lang="educationLabel">
 
-            EĞİTİM
+    EĞİTİM
 
-        </span>
+</span>
 
-        <h2>
+        <h2 data-lang="educationTitle">
 
-            Akademik Yolculuğum
+Akademik Yolculuğum
 
-        </h2>
-        <p class="section-description">
+</h2>
+        <p class="section-description"
+   data-lang="educationDescription">
 
 Makine mühendisliği eğitimim boyunca edindiğim akademik bilgi birikimini,
 yüksek lisans çalışmalarım ile derinleştirerek üretim teknolojileri ve
@@ -254,19 +268,19 @@ eklemeli imalat alanlarında araştırmalarıma devam ediyorum.
 
                 </div>
 
-                <h3>
+                <h3 data-lang="bachelorTitle">
 
- Lisans
+Lisans
 
 </h3>
 
-                <h4>
+                <h4 data-lang="bachelorDepartment">
 
 Makine ve İmalat Mühendisliği
 
 </h4>
 
-                <p>
+                <p data-lang="bachelorSchool">
 
 <strong>Pamukkale Üniversitesi</strong><br>
 
@@ -274,10 +288,9 @@ Teknoloji Fakültesi
 
 </p>
 
-<p>
+<p data-lang="bachelorDescription">
 
 Makine tasarımı, imalat yöntemleri, üretim teknolojileri ve malzeme bilgisi alanlarında mühendislik eğitimi aldım.
-
 </p>
 
             </div>
@@ -290,19 +303,19 @@ Makine tasarımı, imalat yöntemleri, üretim teknolojileri ve malzeme bilgisi 
 
                 </div>
 
-                <h3>
+                <h3 data-lang="masterTitle">
 
  Yüksek Lisans
 
 </h3>
 
-                <h4>
+                <h4 data-lang="masterDepartment">
 
 Makine Mühendisliği
 
 </h4>
 
-                <p>
+                <p data-lang="masterSchool">
 
 <strong>Pamukkale Üniversitesi</strong><br>
 
@@ -310,7 +323,8 @@ Fen Bilimleri Enstitüsü
 
 </p>
 
-                <p class="thesis">
+                <p class="thesis"
+   data-lang="masterThesis">
 
                     <strong>Tez Konusu</strong><br>
 
@@ -318,17 +332,25 @@ Fen Bilimleri Enstitüsü
 
                 </p>
 
-                <h5>Araştırma Alanları</h5>
+                <h5 data-lang="researchTitle">
+
+Araştırma Alanları
+
+</h5>
 
                 <ul class="research-list">
 
-                    <li>Eklemeli İmalat</li>
+                    <li data-lang="research1">
+                        Eklemeli İmalat</li>
 
-                    <li>Polimer Kompozit Malzemeler</li>
+                    <li data-lang="research2">
+                        Polimer Kompozit Malzemeler</li>
 
-                    <li>Isıl İşlem</li>
+                    <li data-lang="research3">
+                        Isıl İşlem</li>
 
-                    <li>Triboloji</li>
+                    <li data-lang="research4">
+                        Triboloji</li>
 
                </ul>
 
@@ -344,18 +366,20 @@ Fen Bilimleri Enstitüsü
 
     <div class="container">
 
-        <span class="section-label">
+        <span class="section-label"
+      data-lang="experienceLabel">
 
-            DENEYİM
+DENEYİM
 
-        </span>
+</span>
 
-        <h2>
+        <h2 data-lang="experienceTitle">
 
-            Profesyonel Deneyimim
+Profesyonel Deneyimim
 
-        </h2>
-        <p class="section-description">
+</h2>
+        <p class="section-description"
+   data-lang="experienceDescription">
 
 Üretim süreçlerinde edindiğim mesleki deneyimi; planlama,
 süreç yönetimi ve sürekli iyileştirme çalışmalarıyla
@@ -374,9 +398,14 @@ desteklemeye devam ediyorum.
 
         <h3>İzelmak Makine A.Ş.</h3>
 
-        <h4>Üretim Mühendisi</h4>
+        <h4 data-lang="jobTitle">
 
-        <p class="company-description">
+Üretim Mühendisi
+
+</h4>
+
+        <p class="company-description"
+   data-lang="companyDescription">
 
 Tarım makineleri sektöründe faaliyet gösteren,
 yem karma makineleri ve katı gübre dağıtma makineleri
@@ -389,7 +418,9 @@ Türkiye'nin öncü üretici firmalarından biridir.
 
     <span class="location">📍 Aydın / Türkiye</span>
 
-    <span class="date"> 📅 2023 — Devam Ediyor</span>
+    <span class="date" data-lang="jobDate">
+    📅 2023 — Devam Ediyor
+</span>
 
 </div>
 
@@ -399,9 +430,13 @@ Türkiye'nin öncü üretici firmalarından biridir.
 
         <div class="experience-block">
 
-            <h5>Profesyonel Rolüm</h5>
+            <h5 data-lang="professionalRole">
 
-<p>
+Profesyonel Rolüm
+
+</h5>
+
+<p data-lang="roleText1">
 
 2023 yılından bu yana <strong>İzelmak Makine A.Ş.</strong> bünyesinde
 <strong>Üretim Mühendisi</strong> olarak görev yapıyorum. Üretim
@@ -411,7 +446,7 @@ verimli şekilde sürdürülmesine katkı sağlıyorum.
 
 </p>
 
-<p>
+<p data-lang="roleText2">
 
 Görev alanım kapsamında günlük, haftalık ve aylık hammadde ihtiyaç
 planlamasını gerçekleştiriyor; üretim süreçlerini analiz ederek
@@ -425,43 +460,53 @@ sağlanmasına destek veriyorum.
 
         <div class="experience-block">
 
-            <h5>Temel Sorumluluklar</h5>
+            <h5 data-lang="responsibilitiesTitle">
+    Temel Sorumluluklar
+</h5>
 
-            <ul>
+<ul>
 
-                <li>Günlük, haftalık ve aylık hammadde ihtiyaç planlaması</li>
+    <li data-lang="responsibility1">
+        Günlük, haftalık ve aylık hammadde ihtiyaç planlaması
+    </li>
 
-                <li>ERP sistemi üzerinden üretim süreçlerinin yönetimi</li>
+    <li data-lang="responsibility2">
+        ERP sistemi üzerinden üretim süreçlerinin yönetimi
+    </li>
 
-                <li>Üretim süreçlerinin analiz edilmesi ve iyileştirilmesi</li>
+    <li data-lang="responsibility3">
+        Üretim süreçlerinin analiz edilmesi ve iyileştirilmesi
+    </li>
 
-                <li>Üretim operasyonlarının koordinasyonu</li>
+    <li data-lang="responsibility4">
+        Üretim operasyonlarının koordinasyonu
+    </li>
 
-            </ul>
+</ul>
 
         </div>
 
         <div class="experience-block">
 
-            <h5>Uzmanlık Alanlarım</h5>
+            <h5 data-lang="competenciesTitle">Uzmanlık Alanlarım</h5>
 
             <div class="departments">
 
-                <span>Üretim Planlama</span>
+                <span data-lang="skill1">Üretim Planlama</span>
 
-                <span>ERP</span>
+                <span data-lang="skill2">ERP</span>
 
-                <span>Hammadde Planlama</span>
+                <span data-lang="skill3">Hammadde Planlama</span>
 
-                <span>Talaşlı İmalat</span>
+                <span data-lang="skill4">Talaşlı İmalat</span>
 
-                <span>Kaynaklı İmalat</span>
+                <span data-lang="skill5">Kaynaklı İmalat</span>
 
-                <span>Üretim Takibi</span>
+                <span data-lang="skill6">Üretim Takibi</span>
 
-                <span>Süreç İyileştirme</span>
+                <span data-lang="skill7">Süreç İyileştirme</span>
 
-                <span>Eklemeli İmalat</span>
+                <span data-lang="skill8">Eklemeli İmalat</span>
 
             </div>
 
@@ -469,19 +514,29 @@ sağlanmasına destek veriyorum.
 
         <div class="experience-block">
 
-            <h5>Sorumlu Olduğum Üretim Birimleri</h5>
+            <h5 data-lang="productionUnitsTitle">
+    Sorumlu Olduğum Üretim Birimleri
+</h5>
 
-            <ul>
+<ul>
 
-                <li>Talaşlı İmalat</li>
+    <li data-lang="unit1">
+        Talaşlı İmalat
+    </li>
 
-                <li>Yarı Mamul Kaynak Hattı</li>
+    <li data-lang="unit2">
+        Yarı Mamul Kaynak Hattı
+    </li>
 
-                <li>Hidrolik Piston</li>
+    <li data-lang="unit3">
+        Hidrolik Piston
+    </li>
 
-                <li>Kimyasal Kaplama</li>
+    <li data-lang="unit4">
+        Kimyasal Kaplama
+    </li>
 
-            </ul>
+</ul>
 
         </div>
 
@@ -498,11 +553,19 @@ PROJECTS
 
     <div class="container">
 
-        <span class="section-label">MÜHENDİSLİK ÇALIŞMALARI</span>
+        <span class="section-label"
+      data-lang="projectsLabel">
+MÜHENDİSLİK ÇALIŞMALARI
+</span>
 
-<h2>Öne Çıkan Çalışmalarım</h2>
+<h2 data-lang="projectsTitle">
 
-<p class="section-description">
+Öne Çıkan Çalışmalarım
+
+</h2>
+
+<p class="section-description"
+   data-lang="projectsDescription">
 
 Akademik araştırmalarım, üretim mühendisliği uygulamalarım ve
 imalat süreçlerinde yürüttüğüm mühendislik çalışmalarından öne çıkan örnekler.
@@ -517,14 +580,17 @@ imalat süreçlerinde yürüttüğüm mühendislik çalışmalarından öne çı
 
                 <div class="project-content">
 
-    <span class="project-category">AKADEMİK ARAŞTIRMA</span>
+    <span class="project-category"
+      data-lang="project1Category">
+AKADEMİK ARAŞTIRMA
+</span>
 
-    <h3>
+    <h3 data-lang="project1Title">
     PET ve PET-CF Malzemelerde<br>
     Isıl İşlemin Aşınma Direncine Etkisi
 </h3>
 
-    <p>
+    <p data-lang="project1Description">
         Pamukkale Üniversitesi Makine Mühendisliği Yüksek Lisans programı kapsamında yürüttüğüm bu araştırmada,
         FDM yöntemiyle üretilen PET ve karbon fiber takviyeli PET malzemelerin farklı ısıl işlem koşulları
         sonrasındaki aşınma davranışları deneysel olarak incelenmektedir.
@@ -540,17 +606,20 @@ imalat süreçlerinde yürüttüğüm mühendislik çalışmalarından öne çı
 
                 <div class="project-content">
 
-                    <span class="project-category">
+                    <span class="project-category"
+      data-lang="project2Category">
+
 ÜRETİM MÜHENDİSLİĞİ
+
 </span>
 
-<h3>
+<h3 data-lang="project2Title">
 
 Üretim Süreçleri ve Sürekli İyileştirme
 
 </h3>
 
-<p>
+<p data-lang="project2Description">
 
 İzelmak Makine A.Ş.'de yürüttüğüm çalışmalar kapsamında
 ERP tabanlı üretim planlama,
@@ -570,19 +639,20 @@ uygulamalı mühendislik deneyimi kazanıyorum.
 
                 <div class="project-content">
 
-                    <span class="project-category">
+                    <span class="project-category"
+      data-lang="project3Category">
 
 MÜHENDİSLİK TASARIMI
 
 </span>
 
-                    <h3>
+                    <h3 data-lang="project3Title">
 
 Makine ve Fikstür Tasarımları
 
 </h3>
 
-                   <p>
+                   <p data-lang="project3Description">
 
 Üretime yönelik fikstür tasarımları,
 mekanik sistem çözümleri,
@@ -610,15 +680,21 @@ CONTACT
 
 <section id="contact" class="contact">
 
-    <span class="section-label">
-    İLETİŞİM
+    <span class="section-label"
+      data-lang="contactLabel">
+
+İLETİŞİM
+
 </span>
 
-<h2>
-    İletişime Geçin
+<h2 data-lang="contactTitle">
+
+İletişime Geçin
+
 </h2>
 
-<p class="section-description">
+<p class="section-description"
+   data-lang="contactDescription">
 
 Yeni projeler, üretim mühendisliği çalışmaları, akademik iş birlikleri
 veya mühendislik çözümleri hakkında görüşmek isterseniz,
@@ -629,12 +705,24 @@ benimle aşağıdaki iletişim kanallarından iletişime geçebilirsiniz.
 <div class="contact-info">
 
     <div class="contact-item">
-        <strong>📍 Konum</strong>
-        <span>Aydın, Türkiye</span>
+        <strong data-lang="locationTitle">
+
+📍 Konum
+
+</strong>
+        <span data-lang="locationValue">
+
+Aydın, Türkiye
+
+</span>
     </div>
 
     <div class="contact-item">
-        <strong>✉️ E-posta : </strong>
+        <strong data-lang="emailTitle">
+
+✉️ E-posta :
+
+</strong>
         <span>metehan54yilmaz@gmail.com</span>
     </div>
 
@@ -643,35 +731,39 @@ benimle aşağıdaki iletişim kanallarından iletişime geçebilirsiniz.
 <div class="contact-buttons">
 
     <a href="mailto:metehan54yilmaz@gmail.com"
-       class="btn btn-primary">
+       class="btn btn-primary"
+       data-lang="emailButton">
 
         E-posta Gönder
 
     </a>
 
     <a href="https://www.linkedin.com/in/metehnyilmaz/"
-   target="_blank"
-   class="btn btn-secondary">
+       target="_blank"
+       class="btn btn-secondary"
+       data-lang="linkedinButton">
 
-    LinkedIn
+        LinkedIn
 
-</a>
+    </a>
 
     <a href="https://github.com/yilmazmetehan"
-   target="_blank"
-   class="btn btn-secondary">
+       target="_blank"
+       class="btn btn-secondary"
+       data-lang="githubButton">
 
-    GitHub
+        GitHub
 
-</a>
+    </a>
 
     <a href="assets/CV/Metehan_Yilmaz_CV.pdf"
-   target="_blank"
-   class="btn btn-secondary">
+       target="_blank"
+       class="btn btn-secondary"
+       data-lang="cvButton">
 
-CV İndir
+        CV İndir
 
-</a>
+    </a>
 
 </div>
 
@@ -685,15 +777,25 @@ CV İndir
 
         <div>
 
+<div>
+
 <strong>Metehan Yılmaz</strong><br>
 
+<span data-lang="footerTitle">
+
 Makine Mühendisi • Üretim Mühendisi
+
+</span>
 
 </div>
 
 <div>
 
+<div data-lang="footerCopyright">
+
 © 2026 Metehan Yılmaz. Tüm hakları saklıdır.
+
+</div>
 
 </div>
 

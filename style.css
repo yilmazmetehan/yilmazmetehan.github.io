@@ -228,11 +228,67 @@ opacity:.75;
 
 }
 
-.language-btn{
+/* ===========================================
+LANGUAGE SWITCH
+=========================================== */
 
-    color:#BEBEC5;
+.language-switch{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+}
+
+.language-switch span{
+
+    color:#555;
+
+    user-select:none;
+
+}
+
+.lang-btn{
+
+    background:none;
+
+    border:none;
+
+    color:#A1A1AA;
 
     font-size:14px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    padding:0;
+
+    transform:translateY(0);
+
+}
+
+.lang-btn:hover{
+
+    color:white;
+
+    transform:translateY(-2px);
+
+}
+
+.lang-btn.active{
+
+    color:var(--accent);
+
+    font-weight:700;
+
+    padding-bottom:3px;
+
+    border-bottom:2px solid var(--accent);
 
 }
 
