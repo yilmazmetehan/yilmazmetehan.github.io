@@ -396,6 +396,18 @@ HERO
 
 }
 
+.btn i{
+
+    width:18px;
+
+    text-align:center;
+
+    margin-right:10px;
+
+     color:var(--accent);
+
+}
+
 .btn-primary{
 
     background:white;
@@ -425,6 +437,10 @@ HERO
     background:var(--surface);
 
     border-color:var(--accent);
+
+    transform:translateY(-4px);
+
+    box-shadow:0 12px 25px rgba(59,130,246,.18);
 
 }
 
@@ -789,6 +805,11 @@ CONTACT
     gap:20px;
 
     flex-wrap:wrap;
+
+}
+.contact-buttons .btn{
+
+    min-width:190px;
 
 }
 

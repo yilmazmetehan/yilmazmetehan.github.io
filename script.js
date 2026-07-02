@@ -179,25 +179,17 @@ project3Description:`Üretime yönelik fikstür tasarımları, mekanik sistem ç
    CONTACT
 =========================== */
 
-contactLabel:"İLETİŞİM",
+contactLabel:"PROFESYONEL AĞ",
 
-contactTitle:"İletişime Geçin",
+contactTitle:"Dijital Platformlarım",
 
-contactDescription:`Yeni projeler, üretim mühendisliği çalışmaları, akademik iş birlikleri veya mühendislik çözümleri hakkında görüşmek isterseniz, benimle aşağıdaki iletişim kanallarından iletişime geçebilirsiniz.`,
-
-locationTitle:"📍 Konum",
-
-locationValue:"Aydın, Türkiye",
-
-emailTitle:"✉️ E-posta :",
-
-emailButton:"E-posta Gönder",
+contactDescription:`Üretim mühendisliği, üretim teknolojileri, eklemeli imalat ve akademik çalışmalarımı dijital platformlarda paylaşmaya devam ediyorum. Güncel projelerimi, teknik içeriklerimi ve mesleki gelişimimi aşağıdaki platformlardan takip edebilirsiniz.`,
 
 linkedinButton:"LinkedIn",
 
 githubButton:"GitHub",
 
-cvButton:"CV İndir",
+instagramButton:"Instagram",
 
 footerTitle:"Makine Mühendisi • Üretim Mühendisi",
 
@@ -386,25 +378,17 @@ project3Description:`Design and development of production fixtures, mechanical s
    CONTACT
 =========================== */
 
-contactLabel:"CONTACT",
+contactLabel:"PROFESSIONAL NETWORK",
 
-contactTitle:"Get in Touch",
+contactTitle:"Digital Presence",
 
-contactDescription:`If you would like to discuss new projects, manufacturing engineering, academic collaborations or engineering solutions, feel free to contact me through the channels below.`,
-
-locationTitle:"📍 Location",
-
-locationValue:"Aydın, Türkiye",
-
-emailTitle:"✉️ Email:",
-
-emailButton:"Send Email",
+contactDescription:`I regularly share my work in manufacturing engineering, production technologies, additive manufacturing and academic research. You can follow my latest projects, technical content and professional journey through the platforms below.`,
 
 linkedinButton:"LinkedIn",
 
 githubButton:"GitHub",
 
-cvButton:"Download CV",
+instagramButton:"Instagram",
 
 footerTitle:"Mechanical Engineer • Production Engineer",
 
