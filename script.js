@@ -37,7 +37,7 @@ const translations = {
 
 aboutTitle:"Makine Mühendisi",
 
-aboutSubtitle:"Üretim Mühendisi • Yüksek Lisans Öğrencisi",
+aboutSubtitle:"Üretim Mühendisi • Makine Mühendisi",
 
 tag1:"Makine Mühendisliği",
 
@@ -51,7 +51,7 @@ aboutText1:`Merhaba, ben <strong>Metehan Yılmaz</strong>. Makine mühendisiyim 
 
 aboutText2:`Günlük, haftalık ve aylık hammadde planlaması, ERP sistemi üzerinden üretim süreçlerinin yönetimi ve süreç iyileştirme çalışmaları temel sorumluluk alanlarımı oluşturmaktadır.`,
 
-aboutText3:`Bunun yanında Pamukkale Üniversitesi Fen Bilimleri Enstitüsü Makine Mühendisliği Anabilim Dalı'nda yüksek lisans eğitimime devam ediyor; eklemeli imalat teknolojileri üzerine akademik araştırmalar yürütüyorum.`,
+aboutText3:`Bunun yanında Pamukkale Üniversitesi Fen Bilimleri Enstitüsü Makine Mühendisliği Anabilim Dalı'nda yüksek lisans eğitimimi tamamladım. Yüksek lisans tez çalışmam kapsamında eklemeli imalat teknolojileri üzerine akademik araştırmalar yürüttüm.`,
 
 /* ===========================
    EDUCATION
@@ -61,7 +61,7 @@ educationLabel:"EĞİTİM",
 
 educationTitle:"Akademik Yolculuğum",
 
-educationDescription:`Makine mühendisliği eğitimim boyunca edindiğim akademik bilgi birikimini, yüksek lisans çalışmalarım ile derinleştirerek üretim teknolojileri ve eklemeli imalat alanlarında araştırmalarıma devam ediyorum.`,
+educationDescription:`Makine mühendisliği eğitimim boyunca edindiğim akademik birikimi, yüksek lisans eğitimim ve tez çalışmam ile ileri taşıyarak üretim teknolojileri ve eklemeli imalat alanlarında akademik çalışmalar yürüttüm.`,
 
 bachelorTitle:"Lisans",
 
@@ -235,7 +235,7 @@ footerCopyright:"© 2026 Metehan Yılmaz. Tüm hakları saklıdır.",
 
 aboutTitle:"Mechanical Engineer",
 
-aboutSubtitle:"Production Engineer • M.Sc. Student",
+aboutSubtitle:"Production Engineer • Mechanical Engineer",
 
 tag1:"Mechanical Engineering",
 
@@ -249,7 +249,7 @@ aboutText1:`Hello, I am <strong>Metehan Yılmaz</strong>. I am a Mechanical Engi
 
 aboutText2:`My primary responsibilities include daily, weekly and monthly raw material planning, managing production processes through the ERP system and carrying out continuous process improvement activities.`,
 
-aboutText3:`In addition to my professional career, I am pursuing my Master's degree in Mechanical Engineering at Pamukkale University while conducting academic research in additive manufacturing technologies.`,
+aboutText3:`In addition to my professional career, I completed my Master's degree in Mechanical Engineering at Pamukkale University. My graduate thesis focused on academic research in additive manufacturing technologies.`,
 
 
     /* ===========================
@@ -260,7 +260,7 @@ educationLabel:"EDUCATION",
 
 educationTitle:"Academic Journey",
 
-educationDescription:`Throughout my undergraduate education in Mechanical Engineering, I strengthened my academic background through graduate studies and continue my research in manufacturing technologies and additive manufacturing.`,
+educationDescription:`Throughout my undergraduate and graduate education in Mechanical Engineering, I developed my academic background through research in manufacturing technologies and additive manufacturing.`,
 
 bachelorTitle:"Bachelor's Degree",
 
