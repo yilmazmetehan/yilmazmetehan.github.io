@@ -18,9 +18,9 @@ const translations = {
 
         heroLabel: "Kişisel Websitesi",
 
-        heroTitle: `Analiz Eden.<br>
-                    Üreten.<br>
-                    Geliştiren.`,
+        heroTitle: `Mühendislik.<br>
+                    Üretim.<br>
+                    Sürekli İyileştirme.`,
 
         heroDescription:
             `Makine mühendisiyim ve Aydın'da faaliyet gösteren
@@ -51,7 +51,7 @@ aboutText1:`Merhaba, ben <strong>Metehan Yılmaz</strong>. Makine mühendisiyim 
 
 aboutText2:`Günlük, haftalık ve aylık hammadde planlaması, ERP sistemi üzerinden üretim süreçlerinin yönetimi ve süreç iyileştirme çalışmaları temel sorumluluk alanlarımı oluşturmaktadır.`,
 
-aboutText3:`Bunun yanında Pamukkale Üniversitesi Fen Bilimleri Enstitüsü Makine Mühendisliği Anabilim Dalı'nda yüksek lisans eğitimimi tamamladım. Yüksek lisans tez çalışmam kapsamında eklemeli imalat teknolojileri üzerine akademik araştırmalar yürüttüm.`,
+aboutText3:`Pamukkale Üniversitesi Fen Bilimleri Enstitüsü Makine Mühendisliği Anabilim Dalı'nda yüksek lisans eğitimimi 2026 yılında tamamladım. Tez çalışmamda, FDM yöntemiyle üretilen PET ve karbon fiber takviyeli PET malzemelerin aşınma davranışına ısıl işlemin etkisini deneysel olarak araştırdım.`,
 
 /* ===========================
    EDUCATION
@@ -61,7 +61,7 @@ educationLabel:"EĞİTİM",
 
 educationTitle:"Akademik Yolculuğum",
 
-educationDescription:`Makine mühendisliği eğitimim boyunca edindiğim akademik birikimi, yüksek lisans eğitimim ve tez çalışmam ile ileri taşıyarak üretim teknolojileri ve eklemeli imalat alanlarında akademik çalışmalar yürüttüm.`,
+educationDescription:`Lisans ve yüksek lisans eğitimim boyunca makine mühendisliği, üretim teknolojileri ve eklemeli imalat alanlarında akademik bilgi ve deneyim kazandım. Yüksek lisans tez çalışmamı 2026 yılında tamamladım.`,
 
 bachelorTitle:"Lisans",
 
@@ -77,7 +77,7 @@ masterDepartment:"Makine Mühendisliği",
 
 masterSchool:`<strong>Pamukkale Üniversitesi</strong><br>Fen Bilimleri Enstitüsü`,
 
-masterThesis:`<strong>Tez Konusu</strong><br>Eriyik Yığma Modelleme (FDM) yöntemiyle üretilen PET ve karbon fiber takviyeli PET malzemelerin aşınma direncine ısıl işlemin etkisinin araştırılması.`,
+masterThesis:`<strong>Yüksek Lisans Tezi</strong><br>FDM yöntemiyle üretilen PET ve karbon fiber takviyeli PET malzemelerin aşınma direncine ısıl işlemin etkisinin deneysel olarak araştırılması.`,
 
 researchTitle:"Araştırma Alanları",
 
@@ -112,13 +112,13 @@ roleText2:`Görev alanım kapsamında günlük, haftalık ve aylık hammadde iht
 
 responsibilitiesTitle:"Temel Sorumluluklar",
 
-responsibility1:"Günlük, haftalık ve aylık hammadde ihtiyaç planlaması",
+responsibility1:"Üretim planına göre günlük, haftalık ve aylık hammadde ihtiyaçlarının belirlenmesi",
 
-responsibility2:"ERP sistemi üzerinden üretim süreçlerinin yönetimi",
+responsibility2:"ERP sistemi üzerinden üretim süreçlerinin takibi ve yönetimi",
 
-responsibility3:"Üretim süreçlerinin analiz edilmesi ve iyileştirilmesi",
+responsibility3:"Talaşlı imalat, yarı mamul kaynak, hidrolik piston ve kimyasal kaplama süreçlerinin koordinasyonu",
 
-responsibility4:"Üretim operasyonlarının koordinasyonu",
+responsibility4:"Üretim süreçlerinin analiz edilmesi ve verimliliği artırmaya yönelik iyileştirme çalışmalarının yürütülmesi",
 
 competenciesTitle:"Uzmanlık Alanlarım",
 
@@ -161,7 +161,7 @@ project1Category:"AKADEMİK ARAŞTIRMA",
 
 project1Title:`PET ve PET-CF Malzemelerde<br>Isıl İşlemin Aşınma Direncine Etkisi`,
 
-project1Description:`Pamukkale Üniversitesi Makine Mühendisliği Yüksek Lisans programı kapsamında yürüttüğüm bu araştırmada, FDM yöntemiyle üretilen PET ve karbon fiber takviyeli PET malzemelerin farklı ısıl işlem koşulları sonrasındaki aşınma davranışları deneysel olarak incelenmektedir.`,
+project1Description:`Pamukkale Üniversitesi Makine Mühendisliği yüksek lisans tezi kapsamında tamamladığım bu çalışmada, FDM yöntemiyle üretilen PET ve karbon fiber takviyeli PET malzemelerin farklı ısıl işlem koşulları sonrasındaki aşınma davranışlarını deneysel olarak inceledim.`,
 
 project2Category:"ÜRETİM MÜHENDİSLİĞİ",
 
@@ -215,9 +215,9 @@ footerCopyright:"© 2026 Metehan Yılmaz. Tüm hakları saklıdır.",
 
         heroLabel: "Personal Website",
 
-        heroTitle: `Analyze.<br>
-                    Build.<br>
-                    Improve.`,
+        heroTitle: `Engineering.<br>
+                    Production.<br>
+                    Continuous Improvement.`,
 
         heroDescription:
             `I am a <strong>Mechanical Engineer</strong> working as a
@@ -249,7 +249,7 @@ aboutText1:`Hello, I am <strong>Metehan Yılmaz</strong>. I am a Mechanical Engi
 
 aboutText2:`My primary responsibilities include daily, weekly and monthly raw material planning, managing production processes through the ERP system and carrying out continuous process improvement activities.`,
 
-aboutText3:`In addition to my professional career, I completed my Master's degree in Mechanical Engineering at Pamukkale University. My graduate thesis focused on academic research in additive manufacturing technologies.`,
+aboutText3:`I completed my Master's degree in Mechanical Engineering at Pamukkale University in 2026. My thesis experimentally investigated the effect of heat treatment on the wear behavior of PET and carbon fiber reinforced PET materials manufactured using FDM.`,
 
 
     /* ===========================
@@ -260,7 +260,7 @@ educationLabel:"EDUCATION",
 
 educationTitle:"Academic Journey",
 
-educationDescription:`Throughout my undergraduate and graduate education in Mechanical Engineering, I developed my academic background through research in manufacturing technologies and additive manufacturing.`,
+educationDescription:`Throughout my undergraduate and graduate studies, I developed my academic knowledge and experience in mechanical engineering, manufacturing technologies and additive manufacturing. I completed my Master's thesis in 2026.`,
 
 bachelorTitle:"Bachelor's Degree",
 
@@ -276,7 +276,7 @@ masterDepartment:"Mechanical Engineering",
 
 masterSchool:`<strong>Pamukkale University</strong><br>Graduate School of Natural and Applied Sciences`,
 
-masterThesis:`<strong>Thesis</strong><br>Investigation of the effect of heat treatment on the wear resistance of PET and carbon fiber reinforced PET materials manufactured by the Fused Deposition Modeling (FDM) process.`,
+masterThesis:`<strong>Master's Thesis</strong><br>Experimental investigation of the effect of heat treatment on the wear resistance of PET and carbon fiber reinforced PET materials manufactured using FDM.`,
 
 researchTitle:"Research Areas",
 
@@ -311,13 +311,13 @@ roleText2:`Within my role, I prepare daily, weekly and monthly raw material plan
 
 responsibilitiesTitle:"Key Responsibilities",
 
-responsibility1:"Daily, weekly and monthly raw material planning",
+responsibility1:"Determining daily, weekly, and monthly raw material requirements based on the production plan",
 
-responsibility2:"Managing production processes through the ERP system",
+responsibility2:"Monitoring and managing production processes through the ERP system",
 
-responsibility3:"Analyzing and improving manufacturing processes",
+responsibility3:"Coordinating machining, semi-finished welding, hydraulic piston, and chemical coating processes",
 
-responsibility4:"Coordinating production operations",
+responsibility4:"Analyzing production processes and implementing improvements to enhance efficiency",
 
 competenciesTitle:"Core Competencies",
 
@@ -360,7 +360,7 @@ project1Category:"ACADEMIC RESEARCH",
 
 project1Title:`Investigation of Heat Treatment Effects on the Wear Resistance of PET and Carbon Fiber Reinforced PET Materials`,
 
-project1Description:`This master's thesis experimentally investigates the influence of heat treatment on the wear performance of PET and carbon fiber reinforced PET materials manufactured using the Fused Deposition Modeling (FDM) process. The study focuses on the effects of different heat treatment temperatures on tribological performance, dimensional accuracy and surface quality.`,
+project1Description:`This completed Master's thesis experimentally investigated the effect of heat treatment on the wear behavior of PET and carbon fiber reinforced PET materials manufactured using the Fused Deposition Modeling (FDM) process. The study evaluated the influence of different heat treatment conditions on their tribological performance.`,
 
 project2Category:"MANUFACTURING ENGINEERING",
 
